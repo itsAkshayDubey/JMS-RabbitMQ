@@ -1,4 +1,4 @@
-package com.akshay.rmqdemo.constants;
+package com.rmqdemo.constants;
 
 public class Constants {
 

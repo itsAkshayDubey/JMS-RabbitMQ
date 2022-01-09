@@ -1,4 +1,4 @@
-package com.akshay.rmqdemo.publisher;
+package com.rmqdemo.publisher;
 
 import java.util.UUID;
 
@@ -9,9 +9,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.akshay.rmqdemo.constants.Constants;
-import com.akshay.rmqdemo.dto.Order;
-import com.akshay.rmqdemo.dto.OrderStatus;
+
+import com.rmqdemo.constants.Constants;
+import com.rmqdemo.dto.Order;
+import com.rmqdemo.dto.OrderStatus;
 
 @RestController
 @RequestMapping("/orders")

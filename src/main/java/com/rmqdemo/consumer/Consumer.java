@@ -1,10 +1,10 @@
-package com.akshay.rmqdemo.consumer;
+package com.rmqdemo.consumer;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
-import com.akshay.rmqdemo.constants.Constants;
-import com.akshay.rmqdemo.dto.OrderStatus;
+import com.rmqdemo.constants.Constants;
+import com.rmqdemo.dto.OrderStatus;
 
 @Component
 public class Consumer {

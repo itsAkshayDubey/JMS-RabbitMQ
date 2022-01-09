@@ -1,4 +1,4 @@
-package com.akshay.rmqdemo.dto;
+package com.rmqdemo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

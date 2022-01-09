@@ -1,4 +1,4 @@
-package com.akshay.rmqdemo.config;
+package com.rmqdemo.config;
 
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.core.Binding;
@@ -11,7 +11,8 @@ import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.amqp.support.converter.MessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import com.akshay.rmqdemo.constants.Constants;
+
+import com.rmqdemo.constants.Constants;
 
 
 
